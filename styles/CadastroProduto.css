@@ -1,0 +1,70 @@
+.cadastro-product-page {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f8f8f8;
+}
+
+.form-container {
+  font-family: 'Poppins', sans-serif;
+  max-width: 500px;
+  width: 90%;
+  padding: 30px 25px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-container h1 {
+  text-align: center;
+  color: #28a745;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.form-container input,
+.form-container textarea {
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  width: 100%;
+}
+
+.form-container input:focus,
+.form-container textarea:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 6px rgba(2, 61, 25, 0.4);
+}
+
+.form-container textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-container button[type="submit"] {
+  padding: 16px;
+  background-color: #28a745;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #208a39;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
